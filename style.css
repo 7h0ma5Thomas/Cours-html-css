@@ -2,6 +2,7 @@ p   /* balise à modifier */
 {
     color: black;    /* la propriété et sa valeur */
     font-size: 1em;   /* Paragraphes en valeur relative */
+    text-align: justify; /* le texte est justifié */
 }
 
 /* on peut effectuer la même modif sur plusieurs balises en même temps */
@@ -28,6 +29,7 @@ h1
 {
     font-size: 2em; /* Titres en valeur relative */
     font-weight: bold; /* le titre sera en gras */
+    text-align: center; /* le titre est centré */
 }
 
 /* utilisation de la balise universelle pour appliquer le font-family à toutes les balises */
