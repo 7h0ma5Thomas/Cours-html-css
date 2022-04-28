@@ -26,6 +26,7 @@ h1, em
 h1
 {
     font-size: 2em; /* Titres en valeur relative */
+    font-style: italic; /* le titre sera en italique */
 }
 
 /* utilisation de la balise universelle pour appliquer le font-family à toutes les balises */
