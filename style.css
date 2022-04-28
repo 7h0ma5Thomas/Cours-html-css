@@ -1,7 +1,7 @@
 p   /* balise à modifier */
 {
     color: black;    /* la propriété et sa valeur */
-    font-size: 14px;   /* Paragraphes de 14 pixels */
+    font-size: 1em;   /* Paragraphes en valeur relative */
 }
 
 /* on peut effectuer la même modif sur plusieurs balises en même temps */
@@ -25,6 +25,6 @@ h1, em
 
 h1
 {
-    font-size: 40px; /* Titres de 40 pixels */
+    font-size: 2em; /* Titres en valeur relative */
 }
 
