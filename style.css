@@ -1,6 +1,6 @@
 p   /* balise à modifier */
 {
-    color: blue;    /* la propriété et sa valeur */
+    color: black;    /* la propriété et sa valeur */
 }
 
 /* on peut effectuer la même modif sur plusieurs balises en même temps */
@@ -8,4 +8,10 @@ p   /* balise à modifier */
 h1, em
 {
     color: red;
+}
+
+/* .intro correspond au paragraphe identifié dans le fichier html, lui seul sera en bleu */
+.intro
+{
+    color: blue;
 }
