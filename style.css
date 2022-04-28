@@ -28,3 +28,7 @@ h1
     font-size: 2em; /* Titres en valeur relative */
 }
 
+*
+{
+    font-family: 'Trebuchet MS', Arial, 'Times New Roman', Verdana, sans-serif;
+}
