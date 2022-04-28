@@ -1,7 +1,9 @@
-p
+p   /* balise à modifier */
 {
-    color: blue;
+    color: blue;    /* la propriété et sa valeur */
 }
+
+/* on peut effectuer la même modif sur plusieurs balises en même temps */
 
 h1, em
 {
