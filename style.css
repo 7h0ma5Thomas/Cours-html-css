@@ -15,6 +15,7 @@ h1, em
 .intro
 {
     color: blue;
+    font-style: italic; /* l'intro sera en italique */
 }
 
 /* .quantité correspond au span identifié */
@@ -26,7 +27,7 @@ h1, em
 h1
 {
     font-size: 2em; /* Titres en valeur relative */
-    font-style: italic; /* le titre sera en italique */
+    font-weight: bold; /* le titre sera en gras */
 }
 
 /* utilisation de la balise universelle pour appliquer le font-family à toutes les balises */
