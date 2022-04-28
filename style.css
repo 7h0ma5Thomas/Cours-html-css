@@ -40,3 +40,18 @@ em
 {
     font-style: normal; /* permet de retirer l'effet italique de la balise em */
 }
+
+.souligne
+{
+    text-decoration: underline;
+}
+
+.barre
+{
+    text-decoration: line-through;
+}
+
+.ligne_dessous
+{
+    text-decoration: overline;
+}
