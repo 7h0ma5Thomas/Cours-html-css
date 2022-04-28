@@ -35,3 +35,8 @@ h1
 {
     font-family: 'Trebuchet MS', Arial, 'Times New Roman', Verdana, sans-serif;
 }
+
+em
+{
+    font-style: normal; /* permet de retirer l'effet italique de la balise em */
+}
