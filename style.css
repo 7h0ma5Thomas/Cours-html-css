@@ -28,6 +28,7 @@ h1
     font-size: 2em; /* Titres en valeur relative */
 }
 
+/* utilisation de la balise universelle pour appliquer le font-family à toutes les balises */
 *
 {
     font-family: 'Trebuchet MS', Arial, 'Times New Roman', Verdana, sans-serif;
