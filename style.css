@@ -78,6 +78,8 @@ em
     clear: both;
 }
 
+/* modification de la couleur du fond de la page */
+
 body
 {
     background-color: #dbdad7; /* ou rgb (219,218,215) pour une nuance de gris clair */
