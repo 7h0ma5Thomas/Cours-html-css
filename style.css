@@ -67,3 +67,13 @@ em
 {
     float: left;
 }
+
+.imageflottante2
+{
+    float: left;
+}
+
+.dessous
+{
+    clear: both;
+}
