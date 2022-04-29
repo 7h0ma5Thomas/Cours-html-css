@@ -15,7 +15,7 @@ h1, em
 /* .intro correspond au paragraphe identifié dans le fichier html, lui seul sera en bleu */
 .intro
 {
-    color: rgb(247, 8, 187);
+    color: rgb(247, 23, 191);
     font-style: italic; /* l'intro sera en italique */
 }
 
@@ -106,3 +106,8 @@ body
     background: url(contenu/Grayfox3.png) fixed no-repeat top right, url(contenu/fond-hightech.png) fixed; /* url après la "," permet d'afficher un 2cd fond */
 }
 
+mark
+{
+    background-color: aliceblue;
+    color: black;
+}
