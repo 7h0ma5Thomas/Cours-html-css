@@ -93,4 +93,5 @@ body
 {
     background-image: url(contenu/arriereplan.png);
     background-attachment: fixed;   /* l'image de fond est fixe, seule le texte défile */
+    background-repeat: repeat-x;    /* l'image se répète que sur la 1ere ligne horizontalement */
 }
