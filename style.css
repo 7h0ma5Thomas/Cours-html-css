@@ -121,6 +121,6 @@ mark
 
 .bordure
 {
-    border-radius: 20px;
+    border-radius: 20px; /* bordure arrondie */
     color: greenyellow;
 }
