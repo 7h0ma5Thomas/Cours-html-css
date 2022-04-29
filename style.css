@@ -89,18 +89,20 @@ body
 
 /* ajout d'une image en arrière plan de la page */
 
-body
+/* body
 {
     background-image: url(contenu/Grayfox3.png);
-    background-attachment: fixed;   /* l'image de fond est fixe, seule le texte défile */
-    background-repeat: no-repeat;    /* l'image ne se répète pas, si pas de background-repeat ou repeat seul, on aura une mosaique */
-    background-position: top right; /* l'image est placée en haut à droite */
+    background-attachment: fixed;    l'image de fond est fixe, seule le texte défile 
+    background-repeat: no-repeat;     l'image ne se répète pas, si pas de background-repeat ou repeat seul, on aura une mosaique 
+    background-position: top right;  l'image est placée en haut à droite 
 }
 
-/* pour réduire le code on peut tout aussi bien rédiger la ligne suivante qui aura le même effet que ci-dessus :
+*/
+
+/* pour réduire le code on peut tout aussi bien rédiger la ligne suivante qui aura le même effet que ci-dessus avant la "," : */
 
 body
 {
-    background: url(contenu/Grayfox3.png) fixed no-repeat top right;
+    background: url(contenu/Grayfox3.png) fixed no-repeat top right, url(contenu/fond-hightech.png) fixed; /* url après la "," permet d'afficher un 2cd fond */
 }
 
