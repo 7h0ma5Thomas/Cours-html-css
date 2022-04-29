@@ -77,3 +77,8 @@ em
 {
     clear: both;
 }
+
+body
+{
+    background-color: #a8a7a5; /* ou rgb (168,167,165) pour une nuance de gris clair */
+}
