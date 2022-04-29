@@ -78,9 +78,18 @@ em
     clear: both;
 }
 
-/* modification de la couleur du fond de la page */
+/* modification de la couleur du fond de la page 
 
 body
 {
-    background-color: #dbdad7; /* ou rgb (219,218,215) pour une nuance de gris clair */
+    background-color: #dbdad7; --> ou rgb (219,218,215) pour une nuance de gris clair
+}
+
+*/
+
+/* ajout d'une image en arrière plan de la page */
+
+body
+{
+    background-image: url(contenu/arriereplan.png);
 }
