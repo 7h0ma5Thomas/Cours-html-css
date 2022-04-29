@@ -92,5 +92,5 @@ body
 body
 {
     background-image: url(contenu/arriereplan.png);
-    background-attachment: fixed;
+    background-attachment: fixed;   /* l'image de fond est fixe, seule le texte défile */
 }
