@@ -138,3 +138,10 @@ mark
     border: white solid 20px;
     box-shadow: 10px 10px 0px black;
 }
+
+.dégradé
+{
+    background-color: white;
+    border: white solid 20px;
+    box-shadow: 10px 10px 10px black;
+}
