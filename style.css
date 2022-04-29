@@ -96,3 +96,11 @@ body
     background-repeat: no-repeat;    /* l'image ne se répète pas, si pas de background-repeat ou repeat seul, on aura une mosaique */
     background-position: top right; /* l'image est placée en haut à droite */
 }
+
+/* pour réduire le code on peut tout aussi bien rédiger la ligne suivante qui aura le même effet que ci-dessus :
+
+body
+{
+    background: url(contenu/Grayfox3.png) fixed no-repeat top right;
+}
+
