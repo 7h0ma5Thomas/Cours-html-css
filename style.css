@@ -124,3 +124,10 @@ mark
     border-radius: 20px; /* bordure arrondie */
     color: greenyellow;
 }
+
+.bordure_fond
+{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
