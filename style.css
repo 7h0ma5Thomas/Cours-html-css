@@ -131,3 +131,10 @@ mark
     color: white;
     border-radius: 20px / 10px; /* bordure arrondie à courbes elliptiques */
 }
+
+.ombre
+{
+    background-color: white;
+    border: white solid 20px;
+    box-shadow: 6px 6px 0px black;
+}
