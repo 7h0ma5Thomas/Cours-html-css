@@ -145,3 +145,10 @@ mark
     border: white solid 20px;
     box-shadow: 10px 10px 10px black;
 }
+
+.texte_ombré
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-shadow: 2px 2px 4px black;
+}
