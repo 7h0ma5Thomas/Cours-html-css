@@ -30,6 +30,7 @@ h1
     font-size: 2em; /* Titres en valeur relative */
     font-weight: bold; /* le titre sera en gras */
     text-align: center; /* le titre est centré */
+    border: 4px white double; /* bordure blanche, double de 4px */
 }
 
 /* utilisation de la balise universelle pour appliquer le font-family à toutes les balises */
