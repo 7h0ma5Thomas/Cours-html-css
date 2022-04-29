@@ -106,8 +106,10 @@ body
     background: url(contenu/Grayfox3.png) fixed no-repeat top right, url(contenu/fond-hightech.png) fixed; /* url après la "," permet d'afficher un 2cd fond */
 }
 
+/* Ci-dessous on ajoute une arrière plan coloré au paragraphe déterminé par <mark>, on change la couleur de la police et on ajoute de la transparence au fond uniquement avec rgba */
+
 mark
 {
-    background-color: aliceblue;
-    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;   
 }
