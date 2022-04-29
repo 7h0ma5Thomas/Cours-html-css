@@ -92,4 +92,5 @@ body
 body
 {
     background-image: url(contenu/arriereplan.png);
+    background-attachment: fixed;
 }
