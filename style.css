@@ -153,6 +153,8 @@ mark
     text-shadow: 2px 2px 4px black;
 }
 
+/* Ci-dessous, changement d'apparence des liens au survol 
+
 a
 {
     text-decoration: none;
@@ -160,13 +162,23 @@ a
     font-style: italic;
 }
 
-/* Ci-dessous, changement d'apparence des liens au survol */
-
 a:hover
 {
     text-decoration: underline;
     color: greenyellow;
 }
 
+Ci-dessous, changement de la couleur de fond du lien au moment du clic
 
+a: :active
+{
+    background-color : #fc6
+}
+
+Ci-dessous, changement d'apparence maintenue après el clic */
+
+a:focus
+{
+    background-color : #fc6  
+}
 
