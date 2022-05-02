@@ -182,3 +182,9 @@ a:focus
     background-color : #fc6  
 }
 
+/* Ci-dessous, changement de la couleur du lien une fois celui-ci visité, violet par défaut */
+
+a:visited
+{
+    color: #f00cd5
+}
