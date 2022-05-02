@@ -160,8 +160,13 @@ a
     font-style: italic;
 }
 
+/* Ci-dessous, changement d'apparence des liens au survol */
+
 a:hover
 {
     text-decoration: underline;
     color: greenyellow;
 }
+
+
+
