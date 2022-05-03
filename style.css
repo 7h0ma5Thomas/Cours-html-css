@@ -12,13 +12,14 @@ h1, em
     color: red;
 }
 
-/* .intro correspond au paragraphe identifié dans le fichier html, lui seul sera en bleu */
+/* .intro correspond au paragraphe identifié dans le fichier html, lui seul sera en rose */
 .intro
 {
     color: rgb(247, 23, 191);
     font-style: italic; /* l'intro sera en italique */
     border-top: 2px dotted black;
     border-bottom: 2px dotted black;
+    width: 17%; /* la dimension du bloc */
 }
 
 /* .quantité correspond au span identifié */
