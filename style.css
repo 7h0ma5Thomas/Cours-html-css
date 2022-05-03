@@ -124,6 +124,7 @@ mark
 {
     border-radius: 20px; /* bordure arrondie */
     color: greenyellow;
+    width: 50%;
 }
 
 .bordure_fond
