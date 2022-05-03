@@ -132,6 +132,9 @@ mark
     background-color: black;
     color: white;
     border-radius: 20px / 10px; /* bordure arrondie à courbes elliptiques */
+    width: 50%;
+    text-align: justify;
+    padding: 12px;
 }
 
 .ombre
