@@ -237,6 +237,15 @@ a:visited
     display: flex;  /* permet de placer les éléments les uns à coté des autres */
     flex-wrap: wrap;    /* les élements vont à la ligne quand ils n'ont plus de place */
     align-content: space-around;    /* les différentes lignes sont espacées les unes des autres et des extrémités */  
+    margin-bottom: 100px;
+}
+
+#conteneur3
+{
+    border: solid black 2px;
+    width: 1000px;
+    height: 300px;
+    display: flex;  /* permet de placer les éléments les uns à coté des autres */
 }
 
 .element
@@ -246,6 +255,12 @@ a:visited
 }
 
 .element2
+{
+    width: 150px;
+    height: 100px;
+}
+
+.element3
 {
     width: 150px;
     height: 100px;
@@ -330,3 +345,19 @@ a:visited
 {
     background-color : greenyellow;
 }   
+
+.element3:nth-child(1)
+{
+    background-color : orange;
+}
+
+.element3:nth-child(2)
+{
+    background-color : blue;
+    flex: 1; /* cet élement s'étire pour occuper toute la place restante */
+}
+
+.element3:nth-child(3)
+{
+    background-color : greenyellow;
+}
