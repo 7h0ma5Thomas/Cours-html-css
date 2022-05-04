@@ -195,3 +195,12 @@ a:visited
 {
     color: #f00cd5
 }
+
+.overflow
+{
+   width: 250px;
+   height: 110px;
+   text-align: justify;
+   border: 1px solid black;
+   overflow: auto;  /* permet de couper le texte qui dépasse du bloc */ 
+}
