@@ -204,3 +204,12 @@ a:visited
    border: 1px solid black;
    overflow: auto;  /* permet de couper le texte qui dépasse du bloc */ 
 }
+
+.cesure
+{
+    width: 250px;
+    height: 110px;
+    text-align: justify;
+    border: 1px solid black;
+    word-wrap: break-word;  /* permet de forcer la césure (coupe) d'un mot très long */  
+}
