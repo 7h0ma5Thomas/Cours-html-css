@@ -219,10 +219,13 @@ a:visited
 #conteneur
 {
     border: solid black 2px;
+    width: 1500px;
+    height: 300px;
     display: flex;  /* permet de placer les éléments les uns à coté des autres */
-    flex-direction: row;
+    flex-direction: row;    /* axe principal, ici en horizontal */
     flex-wrap: wrap;    /* les élements vont à la ligne quand ils n'ont plus de place */
     justify-content: space-around;  /* éléments étirés sur tout l'axe avec espace entres eux et aux extrémités */ 
+    align-items: center;    /* axe secondaire, ici en vertical les éléments sont centrés */
 }
 
 .element
