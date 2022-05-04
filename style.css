@@ -126,6 +126,7 @@ mark
     border-radius: 20px; /* bordure arrondie */
     color: greenyellow;
     width: 50%;
+    margin: auto; /* permet de centrer le bloc */
 }
 
 .bordure_fond
