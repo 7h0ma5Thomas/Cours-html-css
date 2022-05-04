@@ -222,6 +222,7 @@ a:visited
     display: flex;  /* permet de placer les éléments les uns à coté des autres */
     flex-direction: row;
     flex-wrap: wrap;    /* les élements vont à la ligne quand ils n'ont plus de place */
+    justify-content: space-around;  /* éléments étirés sur tout l'axe avec espace entres eux et aux extrémités */ 
 }
 
 .element
