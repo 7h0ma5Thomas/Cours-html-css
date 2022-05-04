@@ -246,8 +246,16 @@ a:visited
     width: 1000px;
     height: 100px;
     display: flex;  /* permet de placer les éléments les uns à coté des autres */
+    margin-bottom: 100px;
 }
 
+#conteneur4
+{
+    border: solid black 2px;
+    width: 1000px;
+    height: 100px;
+    display: flex;  /* permet de placer les éléments les uns à coté des autres */
+}
 .element
 {
     width: 150px;
@@ -260,7 +268,7 @@ a:visited
     height: 100px;
 }
 
-.element3
+.element4
 {
     width: 150px;
     height: 100px;
@@ -358,6 +366,23 @@ a:visited
 }
 
 .element3:nth-child(3)
+{
+    background-color : greenyellow;
+}
+
+.element4:nth-child(1)
+{
+    background-color : orange;
+    flex: 2;
+}
+
+.element4:nth-child(2)
+{
+    background-color : blue;
+    flex: 1;
+}
+
+.element4:nth-child(3)
 {
     background-color : greenyellow;
 }
