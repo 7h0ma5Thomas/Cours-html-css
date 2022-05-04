@@ -219,7 +219,7 @@ a:visited
 #conteneur
 {
     border: solid black 2px;
-    display: flex;
+    display: flex;  /* permet de placer les éléments les uns à coté des autres */
 }
 
 .element
