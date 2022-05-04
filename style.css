@@ -219,6 +219,7 @@ a:visited
 #conteneur
 {
     border: solid black 2px;
+    display: flex;
 }
 
 .element
