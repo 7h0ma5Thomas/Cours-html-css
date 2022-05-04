@@ -236,7 +236,7 @@ a:visited
     height: 500px;
     display: flex;  /* permet de placer les éléments les uns à coté des autres */
     flex-wrap: wrap;    /* les élements vont à la ligne quand ils n'ont plus de place */
-    align-content: space-around;   
+    align-content: space-around;    /* les différentes lignes sont espacées les unes des autres et des extrémités */  
 }
 
 .element
