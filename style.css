@@ -214,6 +214,8 @@ a:visited
     word-wrap: break-word;  /* permet de forcer la césure (coupe) d'un mot très long */  
 }
 
+/* ci-dessous du code flexbox */
+
 #conteneur
 {
     border: solid black 2px;
