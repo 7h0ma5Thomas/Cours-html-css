@@ -3,6 +3,7 @@ p   /* balise à modifier */
     color: #1a1b1c;    /* la propriété et sa valeur */
     font-size: 1em;   /* Paragraphes en valeur relative */
     text-align: justify; /* le texte est justifié */
+    margin: 50px; /* marge extérieure au bloc, ici 50px entre les paragraphes */
 }
 
 /* on peut effectuer la même modif sur plusieurs balises en même temps */
