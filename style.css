@@ -256,16 +256,19 @@ a:visited
 .element:nth-child(1)
 {
     background-color : orange;
+    order: 3;   /* change la l'ordre de l'élément, ici le 1er sera placé en 3ième */
 }
 
 .element:nth-child(2)
 {
     background-color : blue;
+    order: 1;
 }
 
 .element:nth-child(3)
 {
     background-color : greenyellow;
+    order: 2;
 }
 
 .element2:nth-child(1)
