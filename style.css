@@ -227,6 +227,8 @@ a:visited
     height: 100px;
 }
 
+/* ci-desous la pseudo-class nth-child */
+
 .element:nth-child(1)
 {
     background-color : orange;
