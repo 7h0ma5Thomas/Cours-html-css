@@ -213,3 +213,29 @@ a:visited
     border: 1px solid black;
     word-wrap: break-word;  /* permet de forcer la césure (coupe) d'un mot très long */  
 }
+
+#conteneur
+{
+    border: solid black 2px;
+}
+
+.element
+{
+    width: 150px;
+    height: 100px;
+}
+
+.element : :nth-child(1)
+{
+    background-color : orange;
+}
+
+.element : :nth-child(2)
+{
+    background-color : blue;
+}
+
+.element : :nth-child(3)
+{
+    background-color : green;
+}
