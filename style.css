@@ -386,3 +386,54 @@ a:visited
 {
     background-color : greenyellow;
 }
+
+header
+{
+    border: solid black 2px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+nav
+{
+    border: gray solid 2px;
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+section
+{
+    border: solid blue 2px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+aside
+{
+    border: solid orange 1px;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+
+article
+{
+    border: solid greenyellow 1px;
+    background-color: greenyellow;
+    margin-top: 10px;
+}
+
+footer
+{
+    border: solid purple  2px;
+    background-color: purple;
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer p,a
+{
+    color: white;
+}
