@@ -463,4 +463,6 @@ td
 caption
 {
     color: white;
+    caption-side: bottom;
 }
+
