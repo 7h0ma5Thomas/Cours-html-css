@@ -448,3 +448,14 @@ td, th
     border: 1px solid white;
     color: white;
 }
+
+th
+{
+    background-color: black;
+}
+
+td
+{
+    background-color: grey;
+    color: black;
+}
