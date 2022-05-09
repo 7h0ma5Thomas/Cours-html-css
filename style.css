@@ -463,6 +463,6 @@ td
 caption
 {
     color: white;
-    caption-side: bottom;
+    caption-side: bottom;   /* on place le titre en bas */
 }
 
