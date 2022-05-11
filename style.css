@@ -466,3 +466,7 @@ caption
     caption-side: bottom;   /* on place le titre en bas */
 }
 
+:required
+{
+    background-color: red;
+}
