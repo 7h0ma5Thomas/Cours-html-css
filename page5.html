@@ -364,6 +364,34 @@
 
     <!-- avec ces balises on aura une liste déroulante qui s'ouvrira quand on clique dessus pour faire le choix -->
 
+    <p>Du blablablabla</p>
+
+    <p>Une liste déroulante groupe d'options</p>
+
+    <form method="post" action="traitement.php">
+        <p>
+            <label for="pays">Dans quel pays habitez-vous ?</label>
+            <select name="pays" id="pays">
+                <optgroup label="Europe">
+                    <option value="france">France</option>
+                    <option value="espagne">Espagne</option>
+                    <option value="italie">Italie</option>
+                    <option value="royaume-uni">Royaume-uni</option>
+                </optgroup>
+                <optgroup label="Amérique">
+                    <option value="canada">Canada</option>
+                    <option value="etats-unis">Etats-Unis</option>
+                </optgroup>
+                <optgroup label="Asie">
+                    <option value="japon">Japon</option>
+                    <option value="chine">Chine</option>
+                </optgroup>
+            </select>
+        </p>
+    </form>
+
+    
+
 
 
 
