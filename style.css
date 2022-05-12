@@ -470,3 +470,15 @@ caption
 {
     background-color: red;
 }
+
+/* ci-dessous les media queries */
+
+@media screen and (max-width: 1024px)
+{
+    p
+    {
+        color: red;
+        background-color: black;
+        font-size: 1.2em;
+    }
+}
